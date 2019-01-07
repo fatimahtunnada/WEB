@@ -1,3 +1,3 @@
 <?php
-	$con=mysqli_connect("localhost","id8392935_ks", "12345", "id8392935_ks");
+	$con=mysqli_connect("sql12.freemysqlhosting.net", "sql12272887", "hQLaj6Hy8m", "sql12272887");
  ?> 
