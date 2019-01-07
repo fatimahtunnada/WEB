@@ -171,7 +171,7 @@
          	</div> 
 				
 				<?php
-			   	   include "mysqli_koneksi.php";  
+			   	   include "myadmin/koneksi.php";  
 				   $sql = mysqli_query($con,"SELECT * FROM berita ORDER BY id_berita DESC LIMIT 2");    
 				   while($hasil = mysqli_fetch_array($sql)) {     	
 				   $judul  = stripslashes($hasil['judul']);  
